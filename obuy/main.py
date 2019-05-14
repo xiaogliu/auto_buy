@@ -5,7 +5,7 @@ from time import sleep
 
 class AutoBuy(object):
     # required params for class, let the be __init__ function params
-    # __init__ is a special function of python
+    # __init__ is a special function of python https://www.liaoxuefeng.com/wiki/1016959663602400/1017496031185408
     def __init__(self, url, username, passwd):
         self.url = url
         self.username = username
