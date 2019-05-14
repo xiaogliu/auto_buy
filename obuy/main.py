@@ -34,6 +34,7 @@ class AutoBuy(object):
         self.login()
 
 
+# how to undertand __name__ == '__main__':https://www.zhihu.com/question/49136398
 if __name__ == '__main__':
     # if jump to chinese website, just open global proxy
     s_url = "https://www.sephora.com/product/diorshow-iconic-overcurl-catwalk-spectacular-makeup-look-set-P441308"
