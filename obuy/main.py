@@ -17,12 +17,14 @@ class AutoBuy(object):
         self.driver.get(self.url)
 
         # locating element - https://selenium-python.readthedocs.io/locating-elements.html
+        # xpath is general method
         # login button
         button = self.driver.find_element_by_class_name('css-1i4id9g')
         print(button, 1111)
         button.click()
 
         # navigating - choose popup https://selenium-python.readthedocs.io/navigating.html#popup-dialogs
+        # this means change current window? https://blog.csdn.net/Eastmount/article/details/77074306
         # login dialog
         alert = self.driver.switch_to_alert()
         print(alert)
