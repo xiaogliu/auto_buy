@@ -38,6 +38,6 @@ class AutoBuy(object):
 if __name__ == '__main__':
     # if jump to chinese website, just open global proxy
     s_url = "https://www.sephora.com/product/diorshow-iconic-overcurl-catwalk-spectacular-makeup-look-set-P441308"
-    s_username = 'vincexgliu@gmail.com'
-    s_passwd = 'ZAQ1xsw2'
+    s_username = ''
+    s_passwd = ''
     AutoBuy(s_url, s_username, s_passwd).start_buy()
